@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidad - Jardín del Saber</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="recursos.html">Recursos y Noticias</a></li>
+                <li><a href="comunidad.html">Comunidad</a></li>
+                <li><a href="contacto.html">Contacto y Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="comunidad">
+            <h2>Foro de Discusión</h2>
+            <div class="foro-container">
+                <!-- Área para crear un nuevo tema -->
+                <div class="nuevo-tema">
+                    <h2>Crea un Nuevo Tema</h2>
+                    <form action="enviar-tema.php" method="post">
+                        <label for="tema-titulo">Título del Tema:</label>
+                        <input type="text" id="tema-titulo" name="titulo" required>
+                        
+                        <label for="tema-contenido">Contenido del Tema:</label>
+                        <textarea id="tema-contenido" name="contenido" rows="5" required></textarea>
+                        
+                        <button type="submit">Crear Tema</button>
+                    </form>
+                </div>
+        
+                <!-- Lista de temas -->
+                <div class="lista-temas">
+                    <h2>Temas Recientes</h2>
+                    <ul>
+                        <li>
+                            <h3><a href="tema1.html">Tema de Discusión 1</a></h3>
+                            <p>Autor: <strong>Autor 1</strong> - Fecha: <strong>1 de Agosto, 2024</strong></p>
+                            <p>Descripción breve del tema de discusión...</p>
+                        </li>
+                        <li>
+                            <h3><a href="tema2.html">Tema de Discusión 2</a></h3>
+                            <p>Autor: <strong>Autor 2</strong> - Fecha: <strong>5 de Agosto, 2024</strong></p>
+                            <p>Descripción breve del tema de discusión...</p>
+                        </li>
+                        <li>
+                            <h3><a href="tema3.html">Tema de Discusión 3</a></h3>
+                            <p>Autor: <strong>Autor 3</strong> - Fecha: <strong>10 de Agosto, 2024</strong></p>
+                            <p>Descripción breve del tema de discusión...</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+
+        
+
+
+
+            <!--Testimonios-->
+       
+            <h2>Historias y Testimonios</h2>
+            <div class="testimonios-container">
+                <!-- Testimonio 1 -->
+                <article class="testimonio">
+                    <h3>Testimonio de Usuario 1</h3>
+                    <p>"Gracias a los recursos y la comunidad de apoyo, he logrado mejorar mi bienestar mental y emocional. Los artículos y talleres ofrecidos han sido fundamentales en mi proceso."</p>
+                    <p><strong>- Nombre del Usuario 1</strong></p>
+                </article>
+
+                <!-- Testimonio 2 -->
+                <article class="testimonio">
+                    <h3>Testimonio de Usuario 2</h3>
+                    <p>"El espacio creado aquí es increíblemente reconfortante. Me siento más conectado y apoyado desde que comencé a participar en los eventos y grupos de apoyo."</p>
+                    <p><strong>- Nombre del Usuario 2</strong></p>
+                </article>
+
+                <!-- Testimonio 3 -->
+                <article class="testimonio">
+                    <h3>Testimonio de Usuario 3</h3>
+                    <p>"Los videos y recursos educativos han sido una excelente adición a mi rutina diaria. Estoy agradecido por el esfuerzo y la dedicación que se pone en cada material."</p>
+                    <p><strong>- Nombre del Usuario 3</strong></p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+
+    <br>
+    <br>
+    <footer>
+        <p>Instagram: <a href="https://www.instagram.com/girlup_jardindelsaber/" >girlup_clubdelsaber </a> </p>
+        <p>Contacto: <a href="mailto:girlupjardindelsaber@gmail.com">girlupjardindelsaber@gmail.com</a></p>
+        <p>&copy; 2024 Jardín del Saber</p>
+    </footer>
+</body>
+</html>
